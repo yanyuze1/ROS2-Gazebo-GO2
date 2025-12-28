@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from quadropted_msgs/srv/RobotBehaviorCommand.srv
+// generated code does not contain a copyright notice
+
+
+module quadropted_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "RobotBehaviorCommand.srv" "\n"
+      "Команда: [sit, up, walk]")
+    struct RobotBehaviorCommand_Request {
+      string command;
+    };
+    @verbatim (language="comment", text=
+      "Результат выполнения")
+    struct RobotBehaviorCommand_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

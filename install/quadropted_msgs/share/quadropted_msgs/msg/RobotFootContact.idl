@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from quadropted_msgs/msg/RobotFootContact.msg
+// generated code does not contain a copyright notice
+
+
+module quadropted_msgs {
+  module msg {
+    typedef boolean boolean__4[4];
+    @verbatim (language="comment", text=
+      "RobotFootContact.msg")
+    struct RobotFootContact {
+      @verbatim (language="comment", text=
+        "[FR, FL, RR, RL]")
+      boolean__4 contacts;
+    };
+  };
+};

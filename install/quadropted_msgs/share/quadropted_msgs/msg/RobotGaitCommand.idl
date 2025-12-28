@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from quadropted_msgs/msg/RobotGaitCommand.msg
+// generated code does not contain a copyright notice
+
+
+module quadropted_msgs {
+  module msg {
+    module RobotGaitCommand_Constants {
+      @verbatim (language="comment", text=
+        "RobotGaitConstants.msg")
+      const uint16 GAIT_TYPE_IDLE = 0;
+      const uint16 GAIT_TYPE_TROT = 1;
+      const uint16 GAIT_TYPE_TROT_RUN = 2;
+      const uint16 GAIT_TYPE_CLIMB_STAIR = 3;
+      const uint16 GAIT_TYPE_TROT_OBST = 4;
+    };
+    @verbatim (language="comment", text=
+      "RobotGaitCommand.msg" "\n"
+      "ID робота")
+    struct RobotGaitCommand {
+      uint16 robot_id;
+
+      @verbatim (language="comment", text=
+        "Тип походки")
+      uint16 gait_type;
+
+      @verbatim (language="comment", text=
+        "Высота корпуса")
+      float body_height;
+
+      @verbatim (language="comment", text=
+        "Высота шага")
+      float leg_height;
+    };
+  };
+};

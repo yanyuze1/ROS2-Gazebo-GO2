@@ -1,0 +1,4 @@
+source;share/quadropted_msgs/local_setup.bash
+source;share/quadropted_msgs/local_setup.dsv
+source;share/quadropted_msgs/local_setup.sh
+source;share/quadropted_msgs/local_setup.zsh

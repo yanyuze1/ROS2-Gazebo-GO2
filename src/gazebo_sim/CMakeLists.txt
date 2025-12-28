@@ -18,7 +18,6 @@ install(DIRECTORY
   world
   rviz
   models
-  src
   DESTINATION share/${PROJECT_NAME}/
 )
 

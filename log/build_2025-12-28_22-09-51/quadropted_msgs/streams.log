@@ -1,0 +1,365 @@
+[0.009s] Invoking command in '/home/huahua/project/go2_sim_ws/build/quadropted_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/huahua/project/go2_sim_ws/src/quadropted_msgs -DCMAKE_INSTALL_PREFIX=/home/huahua/project/go2_sim_ws/install/quadropted_msgs
+[0.042s] -- The C compiler identification is GNU 11.4.0
+[0.077s] -- The CXX compiler identification is GNU 11.4.0
+[0.082s] -- Detecting C compiler ABI info
+[0.127s] -- Detecting C compiler ABI info - done
+[0.133s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.133s] -- Detecting C compile features
+[0.134s] -- Detecting C compile features - done
+[0.135s] -- Detecting CXX compiler ABI info
+[0.183s] -- Detecting CXX compiler ABI info - done
+[0.187s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.188s] -- Detecting CXX compile features
+[0.188s] -- Detecting CXX compile features - done
+[0.189s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.282s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.341s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.362s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.365s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.370s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.376s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.385s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.405s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.586s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.834s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.928s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.947s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.948s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.963s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.963s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.963s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.964s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.977s] -- Found PythonExtra: .so  
+[1.012s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.020s] -- Added test 'lint_cmake' to check CMake code style
+[1.021s] -- Added test 'xmllint' to check XML markup files
+[1.022s] -- Configuring done
+[1.041s] -- Generating done
+[1.048s] -- Build files have been written to: /home/huahua/project/go2_sim_ws/build/quadropted_msgs
+[1.053s] Invoked command in '/home/huahua/project/go2_sim_ws/build/quadropted_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/huahua/project/go2_sim_ws/src/quadropted_msgs -DCMAKE_INSTALL_PREFIX=/home/huahua/project/go2_sim_ws/install/quadropted_msgs
+[1.053s] Invoking command in '/home/huahua/project/go2_sim_ws/build/quadropted_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huahua/project/go2_sim_ws/build/quadropted_msgs -- -j20 -l20
+[1.088s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.096s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.101s] [  3%] Built target ament_cmake_python_copy_quadropted_msgs
+[1.220s] running egg_info
+[1.220s] creating quadropted_msgs.egg-info
+[1.220s] writing quadropted_msgs.egg-info/PKG-INFO
+[1.220s] writing dependency_links to quadropted_msgs.egg-info/dependency_links.txt
+[1.220s] writing top-level names to quadropted_msgs.egg-info/top_level.txt
+[1.220s] writing manifest file 'quadropted_msgs.egg-info/SOURCES.txt'
+[1.221s] reading manifest file 'quadropted_msgs.egg-info/SOURCES.txt'
+[1.221s] writing manifest file 'quadropted_msgs.egg-info/SOURCES.txt'
+[1.238s] [  3%] Built target ament_cmake_python_build_quadropted_msgs_egg
+[1.388s] [  4%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadropted_msgs/msg/detail/robot_gait_command__functions.c.o[0m
+[1.388s] [  6%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadropted_msgs/srv/detail/robot_behavior_command__functions.c.o[0m
+[1.389s] [  7%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadropted_msgs/msg/detail/robot_velocity__functions.c.o[0m
+[1.389s] [  9%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadropted_msgs/msg/detail/robot_mode_command__functions.c.o[0m
+[1.390s] [ 11%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadropted_msgs/msg/detail/robot_foot_contact__functions.c.o[0m
+[1.391s] [ 11%] Built target quadropted_msgs__cpp
+[1.400s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.400s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.400s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.432s] [ 17%] [32m[1mLinking C shared library libquadropted_msgs__rosidl_generator_c.so[0m
+[1.462s] [ 17%] Built target quadropted_msgs__rosidl_generator_c
+[1.471s] [ 22%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.471s] [ 22%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.471s] [ 22%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.633s] [ 23%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quadropted_msgs/msg/robot_foot_contact__type_support.cpp.o[0m
+[1.634s] [ 28%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quadropted_msgs/msg/robot_mode_command__type_support.cpp.o[0m
+[1.634s] [ 28%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quadropted_msgs/msg/robot_velocity__type_support.cpp.o[0m
+[1.634s] [ 28%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quadropted_msgs/msg/robot_gait_command__type_support.cpp.o[0m
+[1.634s] [ 30%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quadropted_msgs/srv/robot_behavior_command__type_support.cpp.o[0m
+[1.658s] [ 33%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quadropted_msgs/msg/detail/robot_gait_command__type_support.cpp.o[0m
+[1.658s] [ 33%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quadropted_msgs/msg/detail/robot_mode_command__type_support.cpp.o[0m
+[1.659s] [ 34%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quadropted_msgs/msg/detail/robot_velocity__type_support.cpp.o[0m
+[1.659s] [ 38%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quadropted_msgs/srv/detail/robot_behavior_command__type_support.cpp.o[0m
+[1.659s] [ 38%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quadropted_msgs/msg/detail/robot_foot_contact__type_support.cpp.o[0m
+[1.684s] [ 44%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quadropted_msgs/msg/detail/dds_fastrtps/robot_mode_command__type_support.cpp.o[0m
+[1.684s] [ 44%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quadropted_msgs/msg/detail/dds_fastrtps/robot_foot_contact__type_support.cpp.o[0m
+[1.684s] [ 44%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quadropted_msgs/srv/detail/dds_fastrtps/robot_behavior_command__type_support.cpp.o[0m
+[1.684s] [ 46%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quadropted_msgs/msg/detail/dds_fastrtps/robot_gait_command__type_support.cpp.o[0m
+[1.685s] [ 44%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quadropted_msgs/msg/detail/dds_fastrtps/robot_velocity__type_support.cpp.o[0m
+[1.722s] [ 49%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/quadropted_msgs/msg/robot_gait_command__type_support.cpp.o[0m
+[1.722s] [ 49%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/quadropted_msgs/msg/robot_velocity__type_support.cpp.o[0m
+[1.727s] [ 50%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/quadropted_msgs/msg/robot_mode_command__type_support.cpp.o[0m
+[1.751s] [ 53%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/quadropted_msgs/srv/robot_behavior_command__type_support.cpp.o[0m
+[1.751s] [ 53%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/quadropted_msgs/msg/robot_foot_contact__type_support.cpp.o[0m
+[1.779s] [ 55%] [32m[1mLinking CXX shared library libquadropted_msgs__rosidl_typesupport_c.so[0m
+[1.805s] [ 60%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadropted_msgs/msg/detail/robot_mode_command__type_support.c.o[0m
+[1.805s] [ 60%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadropted_msgs/msg/detail/robot_gait_command__type_support.c.o[0m
+[1.805s] [ 60%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadropted_msgs/msg/detail/robot_velocity__type_support.c.o[0m
+[1.816s] [ 60%] Built target quadropted_msgs__rosidl_typesupport_c
+[1.825s] [ 61%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadropted_msgs/msg/detail/robot_foot_contact__type_support.c.o[0m
+[1.834s] [ 63%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadropted_msgs/srv/detail/robot_behavior_command__type_support.c.o[0m
+[1.860s] [ 65%] [32m[1mLinking C shared library libquadropted_msgs__rosidl_typesupport_introspection_c.so[0m
+[1.862s] [ 71%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quadropted_msgs/msg/detail/robot_gait_command__type_support_c.cpp.o[0m
+[1.863s] [ 71%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quadropted_msgs/msg/detail/robot_mode_command__type_support_c.cpp.o[0m
+[1.863s] [ 71%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quadropted_msgs/msg/detail/robot_velocity__type_support_c.cpp.o[0m
+[1.863s] [ 71%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quadropted_msgs/msg/detail/robot_foot_contact__type_support_c.cpp.o[0m
+[1.863s] [ 73%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quadropted_msgs/srv/detail/robot_behavior_command__type_support_c.cpp.o[0m
+[1.890s] [ 73%] Built target quadropted_msgs__rosidl_typesupport_introspection_c
+[1.895s] [ 74%] [32m[1mLinking CXX shared library libquadropted_msgs__rosidl_typesupport_cpp.so[0m
+[1.935s] [ 74%] Built target quadropted_msgs__rosidl_typesupport_cpp
+[2.031s] [ 76%] [32m[1mLinking CXX shared library libquadropted_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.043s] [ 77%] [32m[1mLinking CXX shared library libquadropted_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.084s] [ 77%] Built target quadropted_msgs__rosidl_typesupport_introspection_cpp
+[2.090s] [ 77%] Built target quadropted_msgs__rosidl_typesupport_fastrtps_cpp
+[2.127s] [ 79%] [32m[1mLinking CXX shared library libquadropted_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.175s] [ 79%] Built target quadropted_msgs__rosidl_typesupport_fastrtps_c
+[2.189s] [ 79%] Built target quadropted_msgs
+[2.213s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.660s] [ 80%] Built target quadropted_msgs__py
+[2.675s] [ 82%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_py.dir/rosidl_generator_py/quadropted_msgs/msg/_robot_mode_command_s.c.o[0m
+[2.676s] [ 84%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_py.dir/rosidl_generator_py/quadropted_msgs/msg/_robot_velocity_s.c.o[0m
+[2.677s] [ 85%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_py.dir/rosidl_generator_py/quadropted_msgs/msg/_robot_gait_command_s.c.o[0m
+[2.677s] [ 87%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_py.dir/rosidl_generator_py/quadropted_msgs/msg/_robot_foot_contact_s.c.o[0m
+[2.677s] [ 88%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_py.dir/rosidl_generator_py/quadropted_msgs/srv/_robot_behavior_command_s.c.o[0m
+[2.735s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/quadropted_msgs/libquadropted_msgs__rosidl_generator_py.so[0m
+[2.761s] [ 90%] Built target quadropted_msgs__rosidl_generator_py
+[2.779s] [ 92%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/quadropted_msgs/_quadropted_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.780s] [ 93%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/quadropted_msgs/_quadropted_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.780s] [ 95%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/quadropted_msgs/_quadropted_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[2.842s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/quadropted_msgs/quadropted_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.843s] [100%] [32m[1mLinking C shared library rosidl_generator_py/quadropted_msgs/quadropted_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.843s] [100%] [32m[1mLinking C shared library rosidl_generator_py/quadropted_msgs/quadropted_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.868s] [100%] Built target quadropted_msgs__rosidl_typesupport_introspection_c__pyext
+[2.869s] [100%] Built target quadropted_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.869s] [100%] Built target quadropted_msgs__rosidl_typesupport_c__pyext
+[2.877s] Invoked command in '/home/huahua/project/go2_sim_ws/build/quadropted_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huahua/project/go2_sim_ws/build/quadropted_msgs -- -j20 -l20
+[2.878s] Invoking command in '/home/huahua/project/go2_sim_ws/build/quadropted_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huahua/project/go2_sim_ws/build/quadropted_msgs
+[2.883s] -- Install configuration: ""
+[2.883s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/ament_index/resource_index/rosidl_interfaces/quadropted_msgs
+[2.883s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs
+[2.883s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv
+[2.884s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/robot_behavior_command.h
+[2.884s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail
+[2.884s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__struct.h
+[2.884s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__type_support.h
+[2.884s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__functions.h
+[2.884s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__functions.c
+[2.884s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg
+[2.884s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/robot_foot_contact.h
+[2.884s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/robot_mode_command.h
+[2.884s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/robot_velocity.h
+[2.884s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail
+[2.884s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__type_support.h
+[2.884s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__functions.c
+[2.884s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__functions.h
+[2.884s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__type_support.h
+[2.884s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__functions.c
+[2.884s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__functions.h
+[2.884s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__functions.c
+[2.884s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__struct.h
+[2.884s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__functions.c
+[2.884s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__type_support.h
+[2.884s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__functions.h
+[2.884s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__struct.h
+[2.884s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__struct.h
+[2.884s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__type_support.h
+[2.884s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__functions.h
+[2.884s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__struct.h
+[2.884s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/robot_gait_command.h
+[2.884s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.885s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/environment/library_path.sh
+[2.885s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/environment/library_path.dsv
+[2.885s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_generator_c.so
+[2.885s] -- Set runtime path of "/home/huahua/project/go2_sim_ws/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_generator_c.so" to ""
+[2.885s] -- Up-to-date: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs
+[2.885s] -- Up-to-date: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv
+[2.885s] -- Up-to-date: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail
+[2.885s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__rosidl_typesupport_fastrtps_c.h
+[2.885s] -- Up-to-date: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg
+[2.885s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.885s] -- Up-to-date: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail
+[2.885s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__rosidl_typesupport_fastrtps_c.h
+[2.885s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__rosidl_typesupport_fastrtps_c.h
+[2.885s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__rosidl_typesupport_fastrtps_c.h
+[2.885s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__rosidl_typesupport_fastrtps_c.h
+[2.885s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_fastrtps_c.so
+[2.885s] -- Set runtime path of "/home/huahua/project/go2_sim_ws/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[2.885s] -- Up-to-date: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs
+[2.885s] -- Up-to-date: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv
+[2.885s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/robot_behavior_command.hpp
+[2.885s] -- Up-to-date: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail
+[2.885s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__type_support.hpp
+[2.885s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__traits.hpp
+[2.885s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__struct.hpp
+[2.886s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__builder.hpp
+[2.886s] -- Up-to-date: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg
+[2.886s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/robot_mode_command.hpp
+[2.886s] -- Up-to-date: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail
+[2.886s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__struct.hpp
+[2.886s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__type_support.hpp
+[2.886s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__builder.hpp
+[2.886s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__struct.hpp
+[2.886s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__traits.hpp
+[2.886s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__builder.hpp
+[2.886s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__struct.hpp
+[2.886s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__struct.hpp
+[2.886s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__traits.hpp
+[2.886s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__traits.hpp
+[2.886s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__type_support.hpp
+[2.886s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__type_support.hpp
+[2.886s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__builder.hpp
+[2.886s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__builder.hpp
+[2.886s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__type_support.hpp
+[2.886s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__traits.hpp
+[2.886s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.886s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/robot_gait_command.hpp
+[2.886s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/robot_velocity.hpp
+[2.886s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/robot_foot_contact.hpp
+[2.886s] -- Up-to-date: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs
+[2.886s] -- Up-to-date: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv
+[2.886s] -- Up-to-date: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail
+[2.886s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/dds_fastrtps
+[2.886s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__rosidl_typesupport_fastrtps_cpp.hpp
+[2.886s] -- Up-to-date: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg
+[2.886s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.886s] -- Up-to-date: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail
+[2.887s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__rosidl_typesupport_fastrtps_cpp.hpp
+[2.887s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/dds_fastrtps
+[2.887s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__rosidl_typesupport_fastrtps_cpp.hpp
+[2.887s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__rosidl_typesupport_fastrtps_cpp.hpp
+[2.887s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__rosidl_typesupport_fastrtps_cpp.hpp
+[2.887s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.887s] -- Set runtime path of "/home/huahua/project/go2_sim_ws/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.887s] -- Up-to-date: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs
+[2.887s] -- Up-to-date: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv
+[2.887s] -- Up-to-date: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail
+[2.887s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__type_support.c
+[2.887s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__rosidl_typesupport_introspection_c.h
+[2.887s] -- Up-to-date: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg
+[2.887s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.887s] -- Up-to-date: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail
+[2.887s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__rosidl_typesupport_introspection_c.h
+[2.887s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__type_support.c
+[2.887s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__rosidl_typesupport_introspection_c.h
+[2.887s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__rosidl_typesupport_introspection_c.h
+[2.887s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__type_support.c
+[2.887s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__rosidl_typesupport_introspection_c.h
+[2.887s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__type_support.c
+[2.887s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__type_support.c
+[2.887s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_introspection_c.so
+[2.887s] -- Set runtime path of "/home/huahua/project/go2_sim_ws/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_introspection_c.so" to ""
+[2.887s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_c.so
+[2.887s] -- Set runtime path of "/home/huahua/project/go2_sim_ws/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_c.so" to ""
+[2.888s] -- Up-to-date: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs
+[2.888s] -- Up-to-date: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv
+[2.888s] -- Up-to-date: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail
+[2.888s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__rosidl_typesupport_introspection_cpp.hpp
+[2.888s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__type_support.cpp
+[2.888s] -- Up-to-date: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg
+[2.888s] -- Up-to-date: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail
+[2.888s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__type_support.cpp
+[2.888s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__type_support.cpp
+[2.888s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__type_support.cpp
+[2.888s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__rosidl_typesupport_introspection_cpp.hpp
+[2.888s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__rosidl_typesupport_introspection_cpp.hpp
+[2.888s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__rosidl_typesupport_introspection_cpp.hpp
+[2.888s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__type_support.cpp
+[2.888s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__rosidl_typesupport_introspection_cpp.hpp
+[2.888s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_introspection_cpp.so
+[2.888s] -- Set runtime path of "/home/huahua/project/go2_sim_ws/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[2.888s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_cpp.so
+[2.888s] -- Set runtime path of "/home/huahua/project/go2_sim_ws/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_cpp.so" to ""
+[2.888s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/environment/pythonpath.sh
+[2.888s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/environment/pythonpath.dsv
+[2.888s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs-0.1.0-py3.10.egg-info
+[2.888s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs-0.1.0-py3.10.egg-info/dependency_links.txt
+[2.888s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs-0.1.0-py3.10.egg-info/PKG-INFO
+[2.888s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs-0.1.0-py3.10.egg-info/top_level.txt
+[2.889s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs-0.1.0-py3.10.egg-info/SOURCES.txt
+[2.889s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs
+[2.889s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/quadropted_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.889s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/_quadropted_msgs_s.ep.rosidl_typesupport_c.c
+[2.889s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/quadropted_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.889s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/srv
+[2.889s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/srv/_robot_behavior_command_s.c
+[2.889s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/srv/__init__.py
+[2.889s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/srv/_robot_behavior_command.py
+[2.889s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/quadropted_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.889s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/_quadropted_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.889s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/msg
+[2.889s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/msg/_robot_velocity_s.c
+[2.889s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/msg/_robot_velocity.py
+[2.889s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/msg/_robot_gait_command_s.c
+[2.889s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/msg/_robot_foot_contact.py
+[2.889s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/msg/_robot_foot_contact_s.c
+[2.889s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/msg/__init__.py
+[2.889s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/msg/_robot_gait_command.py
+[2.889s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/msg/_robot_mode_command_s.c
+[2.889s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/msg/_robot_mode_command.py
+[2.889s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/__init__.py
+[2.889s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/libquadropted_msgs__rosidl_generator_py.so
+[2.889s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/_quadropted_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.909s] Listing '/home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs'...
+[2.909s] Compiling '/home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/__init__.py'...
+[2.909s] Listing '/home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/msg'...
+[2.909s] Compiling '/home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/msg/__init__.py'...
+[2.910s] Compiling '/home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/msg/_robot_foot_contact.py'...
+[2.910s] Compiling '/home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/msg/_robot_gait_command.py'...
+[2.910s] Compiling '/home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/msg/_robot_mode_command.py'...
+[2.910s] Compiling '/home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/msg/_robot_velocity.py'...
+[2.910s] Listing '/home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/srv'...
+[2.910s] Compiling '/home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/srv/__init__.py'...
+[2.910s] Compiling '/home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/srv/_robot_behavior_command.py'...
+[2.912s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/quadropted_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.912s] -- Set runtime path of "/home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/quadropted_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.912s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/quadropted_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.912s] -- Set runtime path of "/home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/quadropted_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.912s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/quadropted_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.912s] -- Set runtime path of "/home/huahua/project/go2_sim_ws/install/quadropted_msgs/local/lib/python3.10/dist-packages/quadropted_msgs/quadropted_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.912s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_generator_py.so
+[2.912s] -- Set runtime path of "/home/huahua/project/go2_sim_ws/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_generator_py.so" to ""
+[2.912s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/msg/RobotVelocity.idl
+[2.912s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/msg/RobotGaitCommand.idl
+[2.912s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/msg/RobotModeCommand.idl
+[2.912s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/msg/RobotFootContact.idl
+[2.912s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/srv/RobotBehaviorCommand.idl
+[2.912s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/msg/RobotVelocity.msg
+[2.913s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/msg/RobotGaitCommand.msg
+[2.913s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/msg/RobotModeCommand.msg
+[2.913s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/msg/RobotFootContact.msg
+[2.913s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/srv/RobotBehaviorCommand.srv
+[2.913s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/srv/RobotBehaviorCommand_Request.msg
+[2.913s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/srv/RobotBehaviorCommand_Response.msg
+[2.913s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/ament_index/resource_index/package_run_dependencies/quadropted_msgs
+[2.913s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/ament_index/resource_index/parent_prefix_path/quadropted_msgs
+[2.913s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/environment/ament_prefix_path.sh
+[2.913s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/environment/ament_prefix_path.dsv
+[2.913s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/environment/path.sh
+[2.913s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/environment/path.dsv
+[2.913s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/local_setup.bash
+[2.913s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/local_setup.sh
+[2.913s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/local_setup.zsh
+[2.913s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/local_setup.dsv
+[2.913s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/package.dsv
+[2.913s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/ament_index/resource_index/packages/quadropted_msgs
+[2.913s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/cmake/export_quadropted_msgs__rosidl_generator_cExport.cmake
+[2.913s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/cmake/export_quadropted_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.913s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/cmake/export_quadropted_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.913s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/cmake/export_quadropted_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.913s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/cmake/export_quadropted_msgs__rosidl_generator_cppExport.cmake
+[2.914s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/cmake/export_quadropted_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.914s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/cmake/export_quadropted_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.914s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/cmake/quadropted_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.914s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/cmake/quadropted_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.914s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/cmake/quadropted_msgs__rosidl_typesupport_cExport.cmake
+[2.914s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/cmake/quadropted_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.914s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/cmake/quadropted_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.914s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/cmake/quadropted_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.914s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/cmake/quadropted_msgs__rosidl_typesupport_cppExport.cmake
+[2.914s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/cmake/quadropted_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.914s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/cmake/export_quadropted_msgs__rosidl_generator_pyExport.cmake
+[2.914s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/cmake/export_quadropted_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.914s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/cmake/rosidl_cmake-extras.cmake
+[2.914s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.914s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.914s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.914s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.914s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.914s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.914s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/cmake/quadropted_msgsConfig.cmake
+[2.914s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/cmake/quadropted_msgsConfig-version.cmake
+[2.914s] -- Installing: /home/huahua/project/go2_sim_ws/install/quadropted_msgs/share/quadropted_msgs/package.xml
+[2.916s] Invoked command in '/home/huahua/project/go2_sim_ws/build/quadropted_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huahua/project/go2_sim_ws/build/quadropted_msgs

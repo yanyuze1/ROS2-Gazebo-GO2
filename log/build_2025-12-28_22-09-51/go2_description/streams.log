@@ -1,0 +1,106 @@
+[0.009s] Invoking command in '/home/huahua/project/go2_sim_ws/build/go2_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/huahua/project/go2_sim_ws/src/go2_description -DCMAKE_INSTALL_PREFIX=/home/huahua/project/go2_sim_ws/install/go2_description
+[0.047s] -- The C compiler identification is GNU 11.4.0
+[0.084s] -- The CXX compiler identification is GNU 11.4.0
+[0.088s] -- Detecting C compiler ABI info
+[0.132s] -- Detecting C compiler ABI info - done
+[0.136s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.136s] -- Detecting C compile features
+[0.136s] -- Detecting C compile features - done
+[0.138s] -- Detecting CXX compiler ABI info
+[0.184s] -- Detecting CXX compiler ABI info - done
+[0.188s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.188s] -- Detecting CXX compile features
+[0.188s] -- Detecting CXX compile features - done
+[0.189s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.287s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.344s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.379s] -- Configuring done
+[0.381s] -- Generating done
+[0.381s] -- Build files have been written to: /home/huahua/project/go2_sim_ws/build/go2_description
+[0.384s] Invoked command in '/home/huahua/project/go2_sim_ws/build/go2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/huahua/project/go2_sim_ws/src/go2_description -DCMAKE_INSTALL_PREFIX=/home/huahua/project/go2_sim_ws/install/go2_description
+[0.385s] Invoking command in '/home/huahua/project/go2_sim_ws/build/go2_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huahua/project/go2_sim_ws/build/go2_description -- -j20 -l20
+[0.411s] Invoked command in '/home/huahua/project/go2_sim_ws/build/go2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huahua/project/go2_sim_ws/build/go2_description -- -j20 -l20
+[0.411s] Invoking command in '/home/huahua/project/go2_sim_ws/build/go2_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huahua/project/go2_sim_ws/build/go2_description
+[0.417s] -- Install configuration: ""
+[0.417s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/config
+[0.418s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/config/ros_control.yaml
+[0.418s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/dae
+[0.418s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/dae/thigh.dae
+[0.421s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/dae/thigh_mirror.dae
+[0.425s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/dae/calf.dae
+[0.426s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/dae/foot.dae
+[0.426s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/dae/base.dae
+[0.433s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/dae/calf_mirror.dae
+[0.434s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/dae/hip.dae
+[0.436s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/launch
+[0.436s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/launch/description.launch.py
+[0.436s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/meshes
+[0.436s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/meshes/hokuyo.dae
+[0.436s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/meshes/thigh.dae
+[0.438s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/meshes/trunk.dae
+[0.442s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/meshes/Vlp16.dae
+[0.442s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/meshes/thigh_mirror.dae
+[0.444s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/meshes/calf.dae
+[0.445s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/meshes/foot.dae
+[0.445s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/meshes/calf_mirror.dae
+[0.446s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/meshes/hip.dae
+[0.448s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf
+[0.448s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf/.history
+[0.448s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193710.urdf
+[0.448s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112217.urdf
+[0.448s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193711.urdf
+[0.448s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113754.urdf
+[0.448s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112047.urdf
+[0.448s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113755.urdf
+[0.448s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193644.urdf
+[0.448s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115022.urdf
+[0.448s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113839.urdf
+[0.448s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115226.urdf
+[0.448s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113000.urdf
+[0.448s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115040.urdf
+[0.448s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113633.urdf
+[0.448s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905114759.urdf
+[0.448s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113059.urdf
+[0.449s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193705.urdf
+[0.449s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193653.urdf
+[0.449s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112143.urdf
+[0.449s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904182446.urdf
+[0.449s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115313.urdf
+[0.449s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904144240.urdf
+[0.449s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115021.urdf
+[0.449s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113840.urdf
+[0.449s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115215.urdf
+[0.449s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112752.urdf
+[0.449s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112749.urdf
+[0.449s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112735.urdf
+[0.449s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115300.urdf
+[0.449s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112944.urdf
+[0.449s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905114819.urdf
+[0.449s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193628.urdf
+[0.449s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf/Amended_collision_model.png
+[0.449s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf/go2_description.urdf
+[0.449s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/urdf/Normal_collision_model.png
+[0.449s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/xacro
+[0.449s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/xacro/gazebo.xacro
+[0.449s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/xacro/const.xacro
+[0.449s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/xacro/robot.xacro
+[0.449s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/xacro/leg.xacro
+[0.449s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/xacro/transmission.xacro
+[0.449s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/xacro/materials.xacro
+[0.449s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/xacro/robot_VLP.xacro
+[0.449s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/ament_index/resource_index/package_run_dependencies/go2_description
+[0.450s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/ament_index/resource_index/parent_prefix_path/go2_description
+[0.450s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/environment/ament_prefix_path.sh
+[0.450s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/environment/ament_prefix_path.dsv
+[0.450s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/environment/path.sh
+[0.450s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/environment/path.dsv
+[0.450s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/local_setup.bash
+[0.450s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/local_setup.sh
+[0.450s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/local_setup.zsh
+[0.450s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/local_setup.dsv
+[0.450s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/package.dsv
+[0.450s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/ament_index/resource_index/packages/go2_description
+[0.450s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/cmake/go2_descriptionConfig.cmake
+[0.450s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/cmake/go2_descriptionConfig-version.cmake
+[0.450s] -- Installing: /home/huahua/project/go2_sim_ws/install/go2_description/share/go2_description/package.xml
+[0.452s] Invoked command in '/home/huahua/project/go2_sim_ws/build/go2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huahua/project/go2_sim_ws/build/go2_description

@@ -1,0 +1,29 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadropted_msgs/msg/detail/robot_foot_contact__type_support.c.o"
+  "CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadropted_msgs/msg/detail/robot_foot_contact__type_support.c.o.d"
+  "CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadropted_msgs/msg/detail/robot_gait_command__type_support.c.o"
+  "CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadropted_msgs/msg/detail/robot_gait_command__type_support.c.o.d"
+  "CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadropted_msgs/msg/detail/robot_mode_command__type_support.c.o"
+  "CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadropted_msgs/msg/detail/robot_mode_command__type_support.c.o.d"
+  "CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadropted_msgs/msg/detail/robot_velocity__type_support.c.o"
+  "CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadropted_msgs/msg/detail/robot_velocity__type_support.c.o.d"
+  "CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadropted_msgs/srv/detail/robot_behavior_command__type_support.c.o"
+  "CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadropted_msgs/srv/detail/robot_behavior_command__type_support.c.o.d"
+  "libquadropted_msgs__rosidl_typesupport_introspection_c.pdb"
+  "libquadropted_msgs__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/quadropted_msgs/msg/detail/robot_foot_contact__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/quadropted_msgs/msg/detail/robot_foot_contact__type_support.c"
+  "rosidl_typesupport_introspection_c/quadropted_msgs/msg/detail/robot_gait_command__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/quadropted_msgs/msg/detail/robot_gait_command__type_support.c"
+  "rosidl_typesupport_introspection_c/quadropted_msgs/msg/detail/robot_mode_command__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/quadropted_msgs/msg/detail/robot_mode_command__type_support.c"
+  "rosidl_typesupport_introspection_c/quadropted_msgs/msg/detail/robot_velocity__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/quadropted_msgs/msg/detail/robot_velocity__type_support.c"
+  "rosidl_typesupport_introspection_c/quadropted_msgs/srv/detail/robot_behavior_command__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/quadropted_msgs/srv/detail/robot_behavior_command__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,463 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"ament_index_register_resource",
+			"ament_cmake_environment_generate_package_run_dependencies_marker",
+			"include",
+			"ament_execute_extensions",
+			"ament_package",
+			"ament_cmake_environment_generate_parent_prefix_path_marker",
+			"ament_environment_hooks",
+			"ament_generate_package_environment",
+			"ament_index_register_package",
+			"_ament_package"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/index/ament_index_register_resource.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/environment/ament_cmake_environment_package_hook.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/ament_generate_package_environment.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/index/ament_index_register_package.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/index/ament_cmake_index_package_hook.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 66,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 48,
+				"parent" : 8
+			},
+			{
+				"file" : 2,
+				"parent" : 9
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 47,
+				"parent" : 10
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 29,
+				"parent" : 11
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 105,
+				"parent" : 12
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 48,
+				"parent" : 10
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 43,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 105,
+				"parent" : 15
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 48,
+				"parent" : 8
+			},
+			{
+				"file" : 6,
+				"parent" : 17
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 20,
+				"parent" : 18
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 70,
+				"parent" : 19
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 87,
+				"parent" : 19
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 70,
+				"parent" : 19
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 87,
+				"parent" : 19
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 26,
+				"parent" : 18
+			},
+			{
+				"command" : 0,
+				"file" : 7,
+				"line" : 91,
+				"parent" : 24
+			},
+			{
+				"command" : 0,
+				"file" : 7,
+				"line" : 91,
+				"parent" : 24
+			},
+			{
+				"command" : 0,
+				"file" : 7,
+				"line" : 91,
+				"parent" : 24
+			},
+			{
+				"command" : 0,
+				"file" : 7,
+				"line" : 107,
+				"parent" : 24
+			},
+			{
+				"command" : 0,
+				"file" : 7,
+				"line" : 119,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 48,
+				"parent" : 8
+			},
+			{
+				"file" : 9,
+				"parent" : 30
+			},
+			{
+				"command" : 9,
+				"file" : 9,
+				"line" : 16,
+				"parent" : 31
+			},
+			{
+				"command" : 1,
+				"file" : 8,
+				"line" : 29,
+				"parent" : 32
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 105,
+				"parent" : 33
+			},
+			{
+				"command" : 10,
+				"file" : 4,
+				"line" : 68,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 150,
+				"parent" : 35
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 157,
+				"parent" : 35
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "share/go2_description",
+			"paths" : 
+			[
+				"config"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "share/go2_description",
+			"paths" : 
+			[
+				"dae"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "share/go2_description",
+			"paths" : 
+			[
+				"launch"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "share/go2_description",
+			"paths" : 
+			[
+				"meshes"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "share/go2_description",
+			"paths" : 
+			[
+				"urdf"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "share/go2_description",
+			"paths" : 
+			[
+				"xacro"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/package_run_dependencies",
+			"paths" : 
+			[
+				"/home/huahua/project/go2_sim_ws/build/go2_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/go2_description"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/parent_prefix_path",
+			"paths" : 
+			[
+				"/home/huahua/project/go2_sim_ws/build/go2_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/go2_description"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Unspecified",
+			"destination" : "share/go2_description/environment",
+			"paths" : 
+			[
+				"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Unspecified",
+			"destination" : "share/go2_description/environment",
+			"paths" : 
+			[
+				"/home/huahua/project/go2_sim_ws/build/go2_description/ament_cmake_environment_hooks/ament_prefix_path.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "Unspecified",
+			"destination" : "share/go2_description/environment",
+			"paths" : 
+			[
+				"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"destination" : "share/go2_description/environment",
+			"paths" : 
+			[
+				"/home/huahua/project/go2_sim_ws/build/go2_description/ament_cmake_environment_hooks/path.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "Unspecified",
+			"destination" : "share/go2_description",
+			"paths" : 
+			[
+				"/home/huahua/project/go2_sim_ws/build/go2_description/ament_cmake_environment_hooks/local_setup.bash"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "Unspecified",
+			"destination" : "share/go2_description",
+			"paths" : 
+			[
+				"/home/huahua/project/go2_sim_ws/build/go2_description/ament_cmake_environment_hooks/local_setup.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "share/go2_description",
+			"paths" : 
+			[
+				"/home/huahua/project/go2_sim_ws/build/go2_description/ament_cmake_environment_hooks/local_setup.zsh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "Unspecified",
+			"destination" : "share/go2_description",
+			"paths" : 
+			[
+				"/home/huahua/project/go2_sim_ws/build/go2_description/ament_cmake_environment_hooks/local_setup.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "Unspecified",
+			"destination" : "share/go2_description",
+			"paths" : 
+			[
+				"/home/huahua/project/go2_sim_ws/build/go2_description/ament_cmake_environment_hooks/package.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/packages",
+			"paths" : 
+			[
+				"/home/huahua/project/go2_sim_ws/build/go2_description/ament_cmake_index/share/ament_index/resource_index/packages/go2_description"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "Unspecified",
+			"destination" : "share/go2_description/cmake",
+			"paths" : 
+			[
+				"/home/huahua/project/go2_sim_ws/build/go2_description/ament_cmake_core/go2_descriptionConfig.cmake",
+				"/home/huahua/project/go2_sim_ws/build/go2_description/ament_cmake_core/go2_descriptionConfig-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 37,
+			"component" : "Unspecified",
+			"destination" : "share/go2_description",
+			"paths" : 
+			[
+				"package.xml"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}
