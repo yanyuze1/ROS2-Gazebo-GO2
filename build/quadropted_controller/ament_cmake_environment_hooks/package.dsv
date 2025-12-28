@@ -1,4 +1,0 @@
-source;share/quadropted_controller/local_setup.bash
-source;share/quadropted_controller/local_setup.dsv
-source;share/quadropted_controller/local_setup.sh
-source;share/quadropted_controller/local_setup.zsh
