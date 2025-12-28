@@ -1,0 +1,33 @@
+version: '3.8'  
+
+services:
+  go2_sim:
+    build:
+      context: .  
+      dockerfile: Dockerfile 
+    image: go2_sim:latest
+    container_name: go2_sim
+    tty: true
+    stdin_open: true
+    environment:
+      - DISPLAY=${DISPLAY}
+      - NVIDIA_DRIVER_CAPABILITIES=all
+      - QT_X11_NO_MITSHM=1
+      - USER_ID=${USER_ID:-1000}
+      - GROUP_ID=${GROUP_ID:-1000}
+    devices:
+      - /dev/snd:/dev/snd
+      - /dev/dri:/dev/dri
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /home/huahua:/home/ROS2
+      - /dev/shm:/dev/shm  
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia  # 指定设备驱动
+              count: all      # 预留所有可用 NVIDIA GPU
+              capabilities: [gpu] # 声明 GPU 能力：容器内可调用 GPU 进行渲染/计算
+    network_mode: host
+    command: /bin/bash

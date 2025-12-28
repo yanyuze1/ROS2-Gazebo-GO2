@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>go1_description</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="kaisar.abutalipovv@gmail.com">ros</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>urdf</depend>
+  <depend>xacro</depend>
+  <depend>std_msgs</depend>
+  <depend>angles</depend>
+  <depend>gazebo_dev</depend>
+  <depend>gazebo_ros</depend>
+  <depend>controller_manager</depend>
+  <depend>hardware_interface</depend>
+  <depend>pluginlib</depend>
+  <depend>joint_state_publisher</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>gazebo_ros2_pkgs</depend>
+  <depend>ros2launch</depend>
+  <depend>slam_toolbox</depend>
+  <depend>navigation2</depend>
+  <depend>nav2_bringup</depend>
+  <depend>camera_info_manager</depend>
+  <depend>gazebo_plugins</depend>
+  <depend>rqt_robot_steering</depend>
+  <depend>rmw_cyclonedds_cpp</depend>
+  <depend>cyclonedds</depend>
+  <depend>ign_ros2_control</depend>
+  <depend>tf_transformations</depend>
+  <depend>teleop_twist_keyboard</depend>
+  <depend>ros_ign_gazebo</depend>
+  <depend>ros_ign_bridge</depend>
+  <depend>ros_ign_interfaces</depend>
+  <depend>ros_ign_utils</depend>
+
+  <exec_depend>ros2_controllers</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
