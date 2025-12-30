@@ -1,9 +1,0 @@
-/home/huahua/project/go2_sim_ws/build/go2_description/CMakeFiles/uninstall.dir
-/home/huahua/project/go2_sim_ws/build/go2_description/CMakeFiles/go2_description_uninstall.dir
-/home/huahua/project/go2_sim_ws/build/go2_description/CMakeFiles/test.dir
-/home/huahua/project/go2_sim_ws/build/go2_description/CMakeFiles/edit_cache.dir
-/home/huahua/project/go2_sim_ws/build/go2_description/CMakeFiles/rebuild_cache.dir
-/home/huahua/project/go2_sim_ws/build/go2_description/CMakeFiles/list_install_components.dir
-/home/huahua/project/go2_sim_ws/build/go2_description/CMakeFiles/install.dir
-/home/huahua/project/go2_sim_ws/build/go2_description/CMakeFiles/install/local.dir
-/home/huahua/project/go2_sim_ws/build/go2_description/CMakeFiles/install/strip.dir

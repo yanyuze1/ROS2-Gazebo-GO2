@@ -1,9 +1,0 @@
-/home/huahua/project/go2_sim_ws/build/gazebo_sim/CMakeFiles/uninstall.dir
-/home/huahua/project/go2_sim_ws/build/gazebo_sim/CMakeFiles/gazebo_sim_uninstall.dir
-/home/huahua/project/go2_sim_ws/build/gazebo_sim/CMakeFiles/test.dir
-/home/huahua/project/go2_sim_ws/build/gazebo_sim/CMakeFiles/edit_cache.dir
-/home/huahua/project/go2_sim_ws/build/gazebo_sim/CMakeFiles/rebuild_cache.dir
-/home/huahua/project/go2_sim_ws/build/gazebo_sim/CMakeFiles/list_install_components.dir
-/home/huahua/project/go2_sim_ws/build/gazebo_sim/CMakeFiles/install.dir
-/home/huahua/project/go2_sim_ws/build/gazebo_sim/CMakeFiles/install/local.dir
-/home/huahua/project/go2_sim_ws/build/gazebo_sim/CMakeFiles/install/strip.dir

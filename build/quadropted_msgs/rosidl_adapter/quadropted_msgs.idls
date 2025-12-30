@@ -1,5 +1,0 @@
-/home/huahua/project/go2_sim_ws/build/quadropted_msgs/rosidl_adapter/quadropted_msgs:msg/RobotVelocity.idl
-/home/huahua/project/go2_sim_ws/build/quadropted_msgs/rosidl_adapter/quadropted_msgs:msg/RobotGaitCommand.idl
-/home/huahua/project/go2_sim_ws/build/quadropted_msgs/rosidl_adapter/quadropted_msgs:msg/RobotModeCommand.idl
-/home/huahua/project/go2_sim_ws/build/quadropted_msgs/rosidl_adapter/quadropted_msgs:msg/RobotFootContact.idl
-/home/huahua/project/go2_sim_ws/build/quadropted_msgs/rosidl_adapter/quadropted_msgs:srv/RobotBehaviorCommand.idl
