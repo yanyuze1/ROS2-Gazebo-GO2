@@ -1,0 +1,6 @@
+Invoking command in '/home/huahua/project/go2_sim_ws/build/go1_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/huahua/project/go2_sim_ws/src/go1_description -DCMAKE_INSTALL_PREFIX=/home/huahua/project/go2_sim_ws/install/go1_description
+Invoked command in '/home/huahua/project/go2_sim_ws/build/go1_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/huahua/project/go2_sim_ws/src/go1_description -DCMAKE_INSTALL_PREFIX=/home/huahua/project/go2_sim_ws/install/go1_description
+Invoking command in '/home/huahua/project/go2_sim_ws/build/go1_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huahua/project/go2_sim_ws/build/go1_description -- -j20 -l20
+Invoked command in '/home/huahua/project/go2_sim_ws/build/go1_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huahua/project/go2_sim_ws/build/go1_description -- -j20 -l20
+Invoking command in '/home/huahua/project/go2_sim_ws/build/go1_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huahua/project/go2_sim_ws/build/go1_description
+Invoked command in '/home/huahua/project/go2_sim_ws/build/go1_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huahua/project/go2_sim_ws/build/go1_description

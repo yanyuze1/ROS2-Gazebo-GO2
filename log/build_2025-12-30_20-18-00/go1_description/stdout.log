@@ -1,0 +1,75 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+-- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/huahua/project/go2_sim_ws/build/go1_description
+-- Install configuration: ""
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description//meshes
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description//meshes/thigh.dae
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description//meshes/trunk.dae
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description//meshes/thigh_mirror.dae
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description//meshes/calf.dae
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description//meshes/depthCamera.dae
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description//meshes/ultraSound.dae
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description//meshes/hip.dae
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description//config
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description//config/robot_control.yaml
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description//config/gz_bridge.yaml
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description//config/gaz_ros2_ctl_use_sim.yaml
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description//xacro
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description//xacro/gazebo.xacro
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description//xacro/ultraSound.xacro
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description//xacro/const.xacro
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description//xacro/robot.xacro
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description//xacro/leg.xacro
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description//xacro/transmission.xacro
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description//xacro/materials.xacro
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description//xacro/depthCamera.xacro
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description//launch
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description//launch/joints_move.launch.py
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description//launch/launch_sim.launch.py
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/ament_index/resource_index/package_run_dependencies/go1_description
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/ament_index/resource_index/parent_prefix_path/go1_description
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description/environment/ament_prefix_path.sh
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description/environment/ament_prefix_path.dsv
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description/environment/path.sh
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description/environment/path.dsv
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description/local_setup.bash
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description/local_setup.sh
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description/local_setup.zsh
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description/local_setup.dsv
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description/package.dsv
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/ament_index/resource_index/packages/go1_description
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description/cmake/go1_descriptionConfig.cmake
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description/cmake/go1_descriptionConfig-version.cmake
+-- Installing: /home/huahua/project/go2_sim_ws/install/go1_description/share/go1_description/package.xml
