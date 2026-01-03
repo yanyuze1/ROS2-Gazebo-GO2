@@ -16,10 +16,8 @@ install(DIRECTORY
   config
   launch
   world
-  maps
   rviz
   models
-  src
   DESTINATION share/${PROJECT_NAME}/
 )
 

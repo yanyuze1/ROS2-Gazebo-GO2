@@ -90,7 +90,7 @@ def generate_launch_description():
             f'config_file:={bridge_params}',
         ]
     )
-        # Запуск контроллеров
+
     joint_state_broadcaster = Node(
         package="controller_manager",
         executable="spawner",
@@ -110,7 +110,6 @@ def generate_launch_description():
 
     )
 
-    # Ноды для управления роботом
     controller = Node(
         package='quadropted_controller',
         executable='robot_controller_gazebo.py',

@@ -40,10 +40,10 @@ RUN groupadd -g ${GROUP_ID} rosuser && \
     useradd -u ${USER_ID} -g rosuser -m rosuser -s /bin/bash && \
     echo "rosuser ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
 
-WORKDIR /home/ROS2/project/go2_sim_ws
+WORKDIR /home/ROS2/car/ROS2-Gazebo-GO2
 
 RUN echo "source /opt/ros/humble/setup.bash" >> /home/rosuser/.bashrc && \
-    echo "export GZ_SIM_RESOURCE_PATH=/home/ROS2/project/go2_sim_ws/src/gazebo_sim/models" >> /home/rosuser/.bashrc && \
+    echo "export GZ_SIM_RESOURCE_PATH=/home/ROS2/car/ROS2-Gazebo-GO2/src/gazebo_sim/models" >> /home/rosuser/.bashrc && \
     echo "export CYCLONEDDS_URI=file://home/ROS2/project/go2_sim_ws/src/docker/cyclonedds.xml" >> /home/rosuser/.bashrc
 
 USER rosuser

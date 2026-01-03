@@ -50,7 +50,8 @@ soure install/setup.bash
 
 启动，第一次启动会比较久，因为需要下载相应的场景资源。
 ```bash
-ros2 launch gazebo_sim launch.py
+ros2 launch gazebo_sim launch.py # 启动无扩展传感器go2
+ros2 launch gazebo_sim launch.py sensors:=true world:=warehouse.sdf # 启动带扩展传感器go2,并选定地图
 ```
 成功启动后会如下图所示。
 

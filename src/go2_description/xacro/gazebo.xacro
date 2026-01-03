@@ -106,7 +106,7 @@
                     <plugin filename="libgz-sim-imu-system.so" name="gz::sim::systems::Imu">
                 </plugin>
                 <pose>0 0 0 0 0 0</pose>
-                <gz_frame_id>imu_link</gz_frame_id> <!-- Добавьте этот тег для указания кадра -->
+                <gz_frame_id>imu_link</gz_frame_id> 
             </sensor>
         </gazebo>
 
@@ -283,120 +283,6 @@
             <self_collide>1</self_collide>
             <kp>10000.0</kp>
             <kd>1.0</kd>
-        </gazebo>
-
-        <!-- velodyne-imu-platform -->
-        <!-- velodyne -->
-        <gazebo reference="velodyne">
-            <sensor name="velodyne" type="gpu_lidar">
-                <pose> 0 0 0 0 0 0 </pose>
-                <visualize>false</visualize>
-                <update_rate>10</update_rate>
-                <lidar>
-                    <scan>
-                        <horizontal>
-                            <samples>640</samples>
-                            <resolution>1</resolution>
-                            <min_angle>-3.141592653589793</min_angle>
-                            <max_angle> 3.141592653589793</max_angle>
-                        </horizontal>
-                        <vertical>
-                            <samples>16</samples>
-                            <resolution>1</resolution>
-                            <min_angle>-0.2617993877991494</min_angle>
-                            <max_angle>0.2617993877991494</max_angle>
-                        </vertical>
-                    </scan>
-                    <range>
-                        <min>0.3</min>
-                        <max>131</max>
-                        <resolution>0.001</resolution>
-                    </range>
-                </lidar>
-                <topic>/${robot_name}/velodyne</topic>
-                <gz_frame_id>velodyne</gz_frame_id>
-            </sensor>
-        </gazebo>
-        <!-- imu -->
-        <gazebo reference="velodyne_imu">
-            <gravity>false</gravity>
-            <sensor name="velodyne_imu" type="imu">
-                <always_on>true</always_on>
-                <update_rate>100</update_rate>
-                <visualize>false</visualize>
-                <topic>/${robot_name}/velodyne_imu</topic>
-                    <plugin filename="libgz-sim-imu-system.so" name="gz::sim::systems::Imu">
-                </plugin>
-                <pose>0 0 0 0 0 0</pose>
-                <gz_frame_id>velodyne_imu</gz_frame_id> 
-            </sensor>
-        </gazebo>
-        <!-- velodyne-imu-platform -->
-
-        <!-- d435i -->
-        <!-- d435 -->
-        <gazebo reference="camera_d435">
-            <sensor name="realsense_d435" type="rgbd_camera">
-                <camera name="d435">
-                <horizontal_fov>1.0472</horizontal_fov>
-                <lens>
-                    <intrinsics>
-                    <fx>554.25469</fx>
-                    <fy>554.25469</fy>
-                    <cx>320.5</cx>
-                    <cy>240.5</cy>
-                    <s>0</s>
-                    </intrinsics>
-                </lens>
-                <distortion>
-                    <k1>0.0</k1>
-                    <k2>0.0</k2>
-                    <k3>0.0</k3>
-                    <p1>0.0</p1>
-                    <p2>0.0</p2>
-                    <center>0.5 0.5</center>
-                </distortion>
-                <image>
-                    <width>640</width>
-                    <height>480</height>
-                    <format>R8G8B8</format>
-                </image>
-                <clip>
-                    <near>0.01</near>
-                    <far>300</far>
-                </clip>
-                <depth_camera>
-                    <clip>
-                    <near>0.1</near>
-                    <far>10</far>
-                    </clip>
-                </depth_camera>
-                <noise>
-                    <type>gaussian</type>
-                    <mean>0</mean>
-                    <stddev>0.007</stddev>
-                </noise>
-                <optical_frame_id>camera_d435</optical_frame_id>
-                </camera>
-                <always_on>true</always_on>
-                <update_rate>30</update_rate>
-                <visualize>true</visualize>
-                <topic>/${robot_name}/rgbd_d435</topic>
-            </sensor>
-        </gazebo>
-        <!-- imu -->
-        <gazebo reference="d435i_imu">
-            <gravity>false</gravity>
-            <sensor name="d435i_imu" type="imu">
-                <always_on>true</always_on>
-                <update_rate>100</update_rate>
-                <visualize>false</visualize>
-                <topic>/${robot_name}/d435i_imu</topic>
-                    <plugin filename="libgz-sim-imu-system.so" name="gz::sim::systems::Imu">
-                </plugin>
-                <pose>0 0 0 0 0 0</pose>
-                <gz_frame_id>d435i_imu</gz_frame_id> 
-            </sensor>
         </gazebo>
 
     </xacro:macro >
