@@ -26,9 +26,7 @@ def generate_launch_description():
             launch_arguments={
                 'map': map_yaml_path,
                 'use_sim_time': use_sim_time,
-                'params_file': nav2_param_path,
-                'namespace': 'robot1'
-                }.items(),
+                'params_file': nav2_param_path}.items(),
         )
     rviz_node =  Node(
             package='rviz2',
