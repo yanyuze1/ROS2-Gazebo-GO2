@@ -20,7 +20,10 @@ RUN apt update && \
     ros-humble-tf-transformations \
     ros-humble-opennav-docking \
     ros-humble-robot-localization \
+    ros-humble-cartographer \
+    ros-humble-cartographer-ros \
     ros-humble-ros2-controllers \
+    ros-humble-rqt-tf-tree
     ros-humble-gazebo-ros \
     ros-humble-gazebo-plugins \
     ros-humble-gazebo-dev && \
