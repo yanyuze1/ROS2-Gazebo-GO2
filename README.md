@@ -67,3 +67,7 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/ro
 ```bash
 ros2 service call /robot1/robot_behavior_command quadropted_msgs/srv/RobotBehaviorCommand "{command: 'walk'}"
 ```
+## 2.3 建图
+```bash
+
+```
