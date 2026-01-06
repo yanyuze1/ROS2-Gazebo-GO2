@@ -67,7 +67,17 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/ro
 ```bash
 ros2 service call /robot1/robot_behavior_command quadropted_msgs/srv/RobotBehaviorCommand "{command: 'walk'}"
 ```
-## 2.3 建图
+## 2.3 建图和导航
+建图需在终端中输入如下命令
 ```bash
-
+ros2 launch gazebo_sim launch.py sensors:=true world:=warehouse.sdf 
+ros2 launch cartographer go2_cartographer.launch.py
 ```
+![alt text](images/image-21.png)
+
+导航需要在终端中输入如下命令
+```bash
+ros2 launch gazebo_sim launch.py sensors:=true world:=warehouse.sdf 
+ros2 launch navigation2 go2_navigation2.launch.py 
+```
+![alt text](images/image-22.png)
