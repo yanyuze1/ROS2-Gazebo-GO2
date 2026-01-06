@@ -72,6 +72,8 @@ ros2 service call /robot1/robot_behavior_command quadropted_msgs/srv/RobotBehavi
 ```bash
 ros2 launch gazebo_sim launch.py sensors:=true world:=warehouse.sdf 
 ros2 launch cartographer go2_cartographer.launch.py
+ ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/robot1/cmd_vel #【键盘控制
+ ros2 run nav2_map_server map_saver_cli -t map -f warehouse_map #保存地图
 ```
 ![alt text](images/image-21.png)
 
